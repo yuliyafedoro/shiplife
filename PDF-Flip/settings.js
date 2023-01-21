@@ -8,9 +8,9 @@ var option_PDFF = {
 
     height: '100%',
 
-    enableSound: true,
+    enableSound: false,
 
-    downloadEnable: true, 
+    downloadEnable: false, 
 
     direction: pdfflip.DIRECTION.LTR,
 
@@ -88,9 +88,9 @@ var option_PDFF = {
 
 	maxTextureSize: 1600,
 
-	backgroundImage: "pflip/background.jpg",
+	backgroundImage: "",
 
-    backgroundColor: "#fff",
+    backgroundColor: "#ffffff",
 
     controlsPosition: pdfflip.CONTROLSPOSITION.BOTTOM,
 
