@@ -4,7 +4,7 @@ var option_PDFF = {
 
    /* BASIC SETTINGS */  
 
-    openPage: 1,
+    openPage: 2,3,
 
     height: '100%',
 
@@ -82,7 +82,7 @@ var option_PDFF = {
 
 	transparent: false,
 
-	scrollWheel: true,
+	scrollWheel: false,
 
     zoomRatio: 1.5,
 
