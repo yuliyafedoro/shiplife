@@ -4,7 +4,7 @@ var option_PDFF = {
 
    /* BASIC SETTINGS */  
 
-    openPage: 2,3,
+    openPage: 2,
 
     height: '100%',
 
@@ -90,7 +90,7 @@ var option_PDFF = {
 
 	backgroundImage: "",
 
-    backgroundColor: "#ffffff",
+    backgroundColor: "#d0d0d0",
 
     controlsPosition: pdfflip.CONTROLSPOSITION.BOTTOM,
 
