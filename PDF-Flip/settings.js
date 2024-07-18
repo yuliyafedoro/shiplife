@@ -4,9 +4,9 @@ var option_PDFF = {
 
    /* BASIC SETTINGS */  
 
-    openPage: 4,
+    openPage: 3,
 
-    height: '100%',
+    height: '80%',
 
     enableSound: false,
 
@@ -14,16 +14,15 @@ var option_PDFF = {
 
     direction: pdfflip.DIRECTION.LTR,
 
-    autoPlay: true,
+    autoPlay: false,
 
-    autoPlayStart: false,
+    autoPlayStart: true,
 
     autoPlayDuration: 3000,
 
     autoEnableOutline: false,
 
     autoEnableThumbnail: false,
-
 
 
 
@@ -84,7 +83,7 @@ var option_PDFF = {
 
 	scrollWheel: false,
 
-    zoomRatio: 1.5,
+    zoomRatio: 1,
 
 	maxTextureSize: 1600,
 
@@ -94,9 +93,9 @@ var option_PDFF = {
 
     controlsPosition: pdfflip.CONTROLSPOSITION.BOTTOM,
 
-    allControls: "thumbnail,play,startPage,altPrev,pageNumber,altNext,endPage,zoomIn,zoomOut,fullScreen,download,sound,share",
+    allControls: "startPage,altPrev,pageNumber,altNext,play,endPage,sound",
 
-    hideControls: "outline",
+    hideControls: "thumbnail,fullScreen,download,share,outline,zoomIn,zoomOut",
 
 
 
