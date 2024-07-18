@@ -16,7 +16,7 @@ var option_PDFF = {
 
     autoPlay: false,
 
-    autoPlayStart: true,
+    autoPlayStart: false,
 
     autoPlayDuration: 3000,
 
@@ -89,13 +89,13 @@ var option_PDFF = {
 
 	backgroundImage: "",
 
-    backgroundColor: "#ffffff",
+    backgroundColor: "#f4f4f3",
 
     controlsPosition: pdfflip.CONTROLSPOSITION.BOTTOM,
 
-    allControls: "startPage,altPrev,pageNumber,altNext,play,endPage,sound",
+    allControls: "startPage,altPrev,pageNumber,altNext,play,endPage",
 
-    hideControls: "thumbnail,fullScreen,download,share,outline,zoomIn,zoomOut",
+    hideControls: "thumbnail,fullScreen,download,share,outline,zoomIn,zoomOut,sound",
 
 
 
