@@ -26,7 +26,6 @@ var option_PDFF = {
 
 
 
-
 	/* TRANSLATE INTERFACE */  
 
  
